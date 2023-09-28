@@ -14,9 +14,10 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
-    /* Linting */
+    /* Linting  Hab ich laut Florian geändert  "noUnusedLocals": true,  dann werden die warnungen nicht mehr rot
+     */
     "strict": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
