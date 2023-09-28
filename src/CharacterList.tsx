@@ -5,6 +5,8 @@
 import {useEffect, useState} from "react";
 
 type Character = {
+    origin: any;
+    species: any;
     id: number;
     name: string;
     image: string;
@@ -29,7 +31,10 @@ function CharacterList() {
                 {characters.map((character) => (
                     <li key={character.id}>
                         <img src={character.image} alt={character.name} />
-                        {character.name}
+                        Name: {character.name}
+                        .....Species: {character.species}
+                        .....Place of Origin: {character.origin.name}
+
                     </li>
                 ))}
             </ul>
