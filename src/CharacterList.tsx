@@ -1,6 +1,8 @@
 // CharacterList.tsx
 
 import React, { useEffect, useState } from 'react';
+import "./App.css"
+
 
 type Character = {
     origin: any;
@@ -41,7 +43,7 @@ function CharacterList() {
 
     return (
         <div>
-            <h2>Character List</h2>
+
             <input
                 type="text"
                 placeholder="Search by character name"

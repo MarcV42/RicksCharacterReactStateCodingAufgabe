@@ -5,6 +5,15 @@
   text-align: center;
 }
 
+.menu li{
+  display: inline-block;
+  margin: 6px;
+  padding: 4px;
+  border-radius: 10px;
+  background-color: peachpuff;
+
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
