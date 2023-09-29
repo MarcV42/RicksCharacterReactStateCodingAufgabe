@@ -1,16 +1,15 @@
 // App.tsx
-
-
-import CharacterList from './CharacterList';
-
+import React from 'react';
+import {Route, Routes} from "react-router-dom";
+import CharacterList from './CharacterList'; // Ändern Sie dies auf den richtigen Dateinamen Ihrer Komponente
 
 function App() {
     return (
-        <div className="app">
-            <h1>Rick and Morty Characters</h1>
-            <CharacterList />
+        <Routes>
+            <Route path="/" element={<CharacterList />} />
 
-        </div>
+
+        </Routes>
     );
 }
 
