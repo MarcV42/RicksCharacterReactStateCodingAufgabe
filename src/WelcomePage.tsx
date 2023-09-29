@@ -1,6 +1,7 @@
 // WelcomePage.tsx
 import React from 'react';
 import Menu from "./Menu.tsx";
+import "./App.css"
 
 function WelcomePage() {
     return (
